@@ -54,7 +54,7 @@ def calculate_score(current_score, points_to_add):
 #The above line of code includes a return statement.
 #This will return the updated score value as the output of the function.
 
-#Essentially, the function calculate_score will update the player's score
+#Essentially, the function calculate_score() will update the player's score
 #if they earn points from answering a question.
 #It will also notify them how many points they have left until they reach
 #the winning score of 1400.
@@ -369,5 +369,5 @@ def main():
     print("2 * 2 is", number)
 
 main()
-#As all of the questions are within the main() function, calling to main
+#As all of the questions are within the main() function, calling to main()
 #will let the game run.
