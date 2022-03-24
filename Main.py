@@ -362,11 +362,12 @@ def main():
 #This will set the variable before the operator equal to this variable
 #minus the value after the operator.
     print("5 - 3 is", number)
-    number *= 2
+    number2 = number
+    number2 *= 2
 #The above line of code includes a *= shortcut operator.
 #This will set the variable before the operator equal to the value
 #after the operator times the variable.
-    print("2 * 2 is", number)
+    print(number, "* 2 is", number2)
 
 main()
 #As all of the questions are within the main() function, calling to main()
