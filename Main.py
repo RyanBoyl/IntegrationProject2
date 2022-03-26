@@ -293,11 +293,11 @@ def main():
 #The above line of code uses the or Boolean operator.
 #This returns true if at least one of the conditions given is true.
 
-#The above code returns true if both Thomas Jefferson and John Adams
-#are entered in any order.
-
 #The above line of code also uses the and Boolean operator.
 #This returns true if both of the conditions given are true.
+
+#The above code returns true if both Thomas Jefferson and John Adams
+#are entered in any order.
             print("Congratulations! Your response is correct!")
             score += 500
         elif(final1 == JA or final1 == TJ) or (final2 == JA or final2 == TJ):
